@@ -22,8 +22,5 @@ int main(){
     printf ("Roll no. is: %d\n",s1.roll);
     printf ("CGPA is: %f\n", s1.CGPA);
     printf ("Grade is: %c\n",s1.grade);
- 
- 
- 
     return 0;
 }
