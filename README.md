@@ -30,3 +30,14 @@ I will try to update and work consistently.
 
 ### Current Focus
 Structures → Arrays of Structures
+
+### Week 2
+
+C language basics complete.
+
+### Week 3
+Not very productive, just shifted to clg.
+
+### Week 4
+Lab-1
+Checking types of errors
