@@ -1,43 +1,42 @@
-# FIRST YEAR AT IIIT BHOPAL
-## C PROGRAMMING
-I am Rajyavardhan Singh Bais at IIIT Bhopal.  
-I using this repo to track my progress over the course of first year.  
-I will try to update and work consistently.
+# First Year — IIIT Bhopal
 
-### Week 1 — C Programming
+A working archive of programming coursework, lab exercises, and practice completed during the first year of the Computer Science and Engineering programme at IIIT Bhopal.
 
-### Topics
-- C basics: variables, data types, operators, conditions, loops
-- Arrays and 2D arrays
-- Functions and recursion
-- Pointers and pointer arithmetic
-- Strings and string manipulation
-- Structures and arrays of structures
+The repository primarily contains C exercises, with some C++ files where relevant to the coursework or practice.
 
-### Practice
-- Array searching, sorting and reversal
-- Recursive problems
-- Pointer-based array manipulation
-- String traversal, counting, copying, comparison and reversal
-- Basic structure programs
+## Repository structure
 
-### Key Takeaways
-- Relationship between arrays and pointers
-- Recursion and call-stack behaviour
-- C strings and `'\0'`
-- Passing arrays/pointers to functions
-- Using structures to group related data
+- `week1/`, `week2/`, etc. — exercises grouped by the week in which they were written
+- `LAB_WORK/` — laboratory submissions and related work
+- `.vscode/` — local editor/build configuration
 
-### Current Focus
-Structures → Arrays of Structures
+The existing folder and file names are retained for continuity with the original coursework.
 
-### Week 2
+## Compiling a program
 
-C language basics complete.
+Compile an individual source file rather than the entire repository. For C:
 
-### Week 3
-Not very productive, just shifted to clg.
+```bash
+gcc -std=c11 -Wall -Wextra -pedantic path/to/program.c -o program
+./program
+```
 
-### Week 4
-Lab-1
-Checking types of errors
+For a C++ exercise:
+
+```bash
+g++ -std=c++17 -Wall -Wextra -pedantic path/to/program.cpp -o program
+./program
+```
+
+Some exercises may be incomplete, experimental, or specific to a lab task. Check the individual source file before relying on it.
+
+## Repository hygiene
+
+Generated executables, debug-symbol folders, and operating-system metadata are not source material. They are being identified for a separate, reviewed cleanup; this documentation update does not remove or modify any existing files.
+
+## Purpose
+
+This is a record of the learning process, not a polished library. The aim is to keep coursework organised, preserve progress, and make future revision easier.
+
+---
+Maintained by [Rajyavardhan Singh Bais](https://github.com/rvsbais21-git).
