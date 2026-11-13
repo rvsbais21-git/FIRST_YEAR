@@ -1,1 +1,12 @@
+# Existing Windows executable rule
 *.exe
+
+# macOS metadata and generated debug symbols
+.DS_Store
+*.dSYM/
+
+# Common compiler outputs
+*.o
+*.obj
+*.out
+a.out

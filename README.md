@@ -1,43 +1,44 @@
-# FIRST YEAR AT IIIT BHOPAL
-## C PROGRAMMING
-I am Rajyavardhan Singh Bais at IIIT Bhopal.  
-I using this repo to track my progress over the course of first year.  
-I will try to update and work consistently.
+# First Year — IIIT Bhopal
 
-### Week 1 — C Programming
+A chronological archive of programming coursework, lab exercises, and practice from the first year of the Computer Science and Engineering programme at IIIT Bhopal.
 
-### Topics
-- C basics: variables, data types, operators, conditions, loops
-- Arrays and 2D arrays
-- Functions and recursion
-- Pointers and pointer arithmetic
-- Strings and string manipulation
-- Structures and arrays of structures
+The repository is intentionally organised around **when the work was done**, not solely by programming language or subject. It documents the learning process as it unfolded.
 
-### Practice
-- Array searching, sorting and reversal
-- Recursive problems
-- Pointer-based array manipulation
-- String traversal, counting, copying, comparison and reversal
-- Basic structure programs
+## Repository structure
 
-### Key Takeaways
-- Relationship between arrays and pointers
-- Recursion and call-stack behaviour
-- C strings and `'\0'`
-- Passing arrays/pointers to functions
-- Using structures to group related data
+- `week1/`, `week2/`, `week3/`, etc. — exercises grouped by their original week
+- `LAB_WORK/` — laboratory exercises and submissions
+- `.vscode/` — editor and build-task configuration
 
-### Current Focus
-Structures → Arrays of Structures
+Some weekly folders contain both C and C++ files. The original filenames and chronology are retained for continuity.
 
-### Week 2
+## Working with the programs
 
-C language basics complete.
+Compile one source file at a time; many exercises are standalone programs with their own `main()`.
 
-### Week 3
-Not very productive, just shifted to clg.
+For C:
 
-### Week 4
-Lab-1
-Checking types of errors
+```bash
+gcc -std=c11 -Wall -Wextra -pedantic path/to/program.c -o program
+./program
+```
+
+For C++:
+
+```bash
+g++ -std=c++17 -Wall -Wextra -pedantic path/to/program.cpp -o program
+./program
+```
+
+Some files may be incomplete, experimental, or tied to a particular lab task. Review an individual file before relying on it.
+
+## Chronological record
+
+The weekly folders are the primary record of progress. Keep future work in the week in which it belongs, and use the source file or a short accompanying note to identify its subject when needed.
+
+## Repository hygiene
+
+This repository currently includes some generated macOS build/debug artefacts alongside source files. They are being catalogued for a separate review. This documentation and ignore-rule update does **not** remove existing files or rewrite history.
+
+---
+Maintained by [Rajyavardhan Singh Bais](https://github.com/rvsbais21-git).
